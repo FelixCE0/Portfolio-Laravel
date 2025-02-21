@@ -125,7 +125,7 @@
                             </li>
                             <li>
                                 <a class="mdl-navigation__link border-top-sep" data-scroll href="#portfolio_sec">
-                                    <i class="mdi mdi-case pr-15"></i>
+                                    <i class="mdi mdi-account-box pr-15"></i>
                                     <span class="font-capitalize">portfolio</span>
                                 </a>
                             </li>
@@ -137,7 +137,7 @@
                             </li>
                             <li>
                                 <a class="mdl-navigation__link border-top-sep" data-scroll href="#project_sec">
-                                    <i class="mdi mdi-code pr-15"></i>
+                                    <i class="mdi  mdi-format-list-bulleted pr-15"></i>
                                     <span class="font-capitalize">projects</span>
                                 </a>
                             </li>
@@ -331,7 +331,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-6 mb-30">
                                 <div class="mdl-card mdl-shadow--2dp text-center pa-20 pt-30 pb-30">
-                                    <i class="mdi mdi-library"></i>
+                                    <i class="mdi mdi-book-open"></i>
                                     <span>reading</span>
                                 </div>
                             </div>
