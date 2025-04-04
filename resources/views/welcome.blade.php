@@ -352,10 +352,10 @@
                 </div>
                 <div id="project_sec" class="mx-auto sec-pad-top-sm text-center" style="width: 80%;">
     <h2 class="mb-6 text-3xl font-bold">Projects and Work</h2>
-    <div class="flex gap-8 justify-center" id="repo-card">
+    <div class="flex flex-wrap justify-center gap-8" id="repo-card">
         <!-- First Set of Cards -->
-        <div class="card-set first-set flex gap-8">
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
+        <div class="card-set first-set flex flex-wrap justify-center gap-8">
+            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-full sm:w-80">
                 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg" alt="Project Image" class="w-full h-40 object-cover">
                 <div class="p-4 text-center">
                     <h3 class="text-lg font-semibold text-gray-800">React Portfolio</h3>
@@ -369,7 +369,7 @@
                     </div>
                 </div>
             </div>
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
+            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-full sm:w-80">
                 <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1693944178975/0eed2717-f845-4435-8771-772c164510fa.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Project Image" class="w-full h-40 object-cover">
                 <div class="p-4 text-center">
                     <h3 class="text-lg font-semibold text-gray-800">Laravel with ChatGPT</h3>
@@ -386,8 +386,8 @@
         </div>
 
         <!-- Second Set of Cards (Initially Hidden) -->
-        <div class="card-set second-set hidden flex gap-8">
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
+        <div class="card-set second-set hidden md:flex flex-wrap justify-center gap-8">
+            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-full sm:w-80">
                 <img src="https://calebporzio.com/post_images/213149115.png" alt="Project Image" class="w-full h-40 object-cover">
                 <div class="p-4 text-center">
                     <h3 class="text-lg font-semibold text-gray-800">Vercel Laravel</h3>
