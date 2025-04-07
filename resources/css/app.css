@@ -1310,6 +1310,8 @@ p {
   padding: 8px 12px !important;
   margin: 0 !important;
   border-radius: 4px !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .mdl-menu__item:hover {
@@ -1322,6 +1324,7 @@ p {
   gap: 8px !important;
   color: #000000 !important;
   text-decoration: none !important;
+  width: 100% !important;
 }
 
 .mdl-menu__item a i {
