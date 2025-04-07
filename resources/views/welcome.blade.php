@@ -51,7 +51,7 @@
         <div class="mdl-js-layout mdl-layout--fixed-header">
             <header class="mdl-layout__header">
                 <div class="mdl-layout__header-row mdl-scroll-spy-1">
-                    <a href="index.html"><span class="mdl-layout-title">Felix E Correa Hidalgo</span></a>
+                    <a href="index.html"><span class="mdl-layout-title"></span></a>
                     <div class="mdl-layout-spacer"></div>
                     <ul class="nav mdl-navigation mdl-layout--large-screen-only">
                         <li>
@@ -69,16 +69,19 @@
                         <li>
                             <a class="mdl-navigation__link" data-scroll href="#contact_sec">contact</a>
                         </li>
+                        <li>
+                            <livewire:dark-mode-toggle />
+                        </li>
                     </ul>
                     <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon ver-more-btn">
                         <i class="material-icons">more_vert</i>
                     </button>
-                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
-                        data-mdl-for="demo-menu-lower-right">
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" data-mdl-for="demo-menu-lower-right">
                         <li class="mdl-menu__item">
-                            <a href="mailto:correafelix7@gmail.com"><i
-                                    class="mdi mdi-email-open font-green pr-10"></i>Drop me
-                                an Mail</a>
+                            <a href="mailto:correafelix7@gmail.com">
+                                <i class="mdi mdi-email"></i>
+                                Drop me an Mail
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -151,7 +154,7 @@
                         </ul>
                     </div>
                     <div class="drawer-footer mt-50 mb-30 text-center">
-                        <p class="font-12 mt-10">Felix E Correa Hidalgo &copy; 2023.</p>
+                        <p class="font-12 mt-10">Felix E Correa Hidalgo &copy; 2025.</p>
                     </div>
                 </div>
             </div>
@@ -224,7 +227,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="profile-title">
-                                                        💻 I’m currently watching:
+                                                        💻 I'm currently watching:
                                                     </div>
                                                     Naruto Shippuden
                                                 </li>
@@ -350,87 +353,73 @@
                         </div>
                     </section>
                 </div>
-                <div id="project_sec" class="mx-auto sec-pad-top-sm text-center" style="width: 80%;">
-    <h2 class="mb-6 text-3xl font-bold">Projects and Work</h2>
-    <div class="flex gap-8 justify-center" id="repo-card">
-        <!-- First Set of Cards -->
-        <div class="card-set first-set flex gap-8">
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
-                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg" alt="Project Image" class="w-full h-40 object-cover">
-                <div class="p-4 text-center">
-                    <h3 class="text-lg font-semibold text-gray-800">React Portfolio</h3>
-                    <p class="text-sm text-gray-600 mt-2">My React portfolio is a personal website I built using React.js to showcase my skills, projects, and experience.</p>
-                    <div class="mt-4">
-                        <a href="https://github.com/FelixCE0/react-portfolio" 
-                           target="_blank" 
-                           class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm font-medium">
-                            View on GitHub
-                        </a>
+                <div id="project_sec" class="mx-auto sec-pad-top-sm text-center" style="width: 90%; max-width: 1200px;">
+                    <h2 class="mb-30">Projects and Work</h2>
+                    <div class="flex gap-6 justify-center flex-wrap" id="repo-card">
+                        <!-- First Set of Cards -->
+                        <div class="card-set first-set flex gap-6 justify-center flex-wrap">
+                            <div class="mdl-card mdl-shadow--2dp text-center" style="width: 320px;">
+                                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg" alt="Project Image" class="w-full h-40 object-cover">
+                                <div class="mdl-card__title">
+                                    <h3 class="mdl-card__title-text">React Portfolio</h3>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    My React portfolio is a personal website I built using React.js to showcase my skills, projects, and experience.
+                                </div>
+                                <div class="mdl-card__actions mdl-card--border">
+                                    <a href="https://github.com/FelixCE0/react-portfolio" 
+                                       target="_blank" 
+                                       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white">
+                                        View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="mdl-card mdl-shadow--2dp text-center" style="width: 320px;">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1693944178975/0eed2717-f845-4435-8771-772c164510fa.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Project Image" class="w-full h-40 object-cover">
+                                <div class="mdl-card__title">
+                                    <h3 class="mdl-card__title-text">Laravel with ChatGPT</h3>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    This project is a web application developed using Laravel, incorporating OpenAI's ChatGPT for intelligent conversational features.
+                                </div>
+                                <div class="mdl-card__actions mdl-card--border">
+                                    <a href="https://github.com/FelixCE0/Laravel-Chatgpt" 
+                                       target="_blank" 
+                                       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white">
+                                        View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Second Set of Cards (Initially Hidden) -->
+                        <div class="card-set second-set hidden flex gap-6 justify-center flex-wrap">
+                            <div class="mdl-card mdl-shadow--2dp text-center" style="width: 320px;">
+                                <img src="https://calebporzio.com/post_images/213149115.png" alt="Project Image" class="w-full h-40 object-cover">
+                                <div class="mdl-card__title">
+                                    <h3 class="mdl-card__title-text">Vercel Laravel</h3>
+                                </div>
+                                <div class="mdl-card__supporting-text">
+                                    A Vercel Laravel and OpenWeather API that allows users to check current weather conditions in any city.
+                                </div>
+                                <div class="mdl-card__actions mdl-card--border">
+                                    <a href="https://github.com/FelixCE0/vercel-laravel" 
+                                       target="_blank" 
+                                       class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white">
+                                        View on GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Buttons -->
+                    <div class="mt-8 mb-8">
+                        <button onclick="showNextSet()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect bg-blue font-white">
+                            Next
+                        </button>
                     </div>
                 </div>
-            </div>
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
-                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1693944178975/0eed2717-f845-4435-8771-772c164510fa.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Project Image" class="w-full h-40 object-cover">
-                <div class="p-4 text-center">
-                    <h3 class="text-lg font-semibold text-gray-800">Laravel with ChatGPT</h3>
-                    <p class="text-sm text-gray-600 mt-2">This project is a web application developed using Laravel, incorporating OpenAI's ChatGPT for intelligent conversational features.</p>
-                    <div class="mt-4">
-                        <a href="https://github.com/FelixCE0/Laravel-Chatgpt" 
-                           target="_blank" 
-                           class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm font-medium">
-                            View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Second Set of Cards (Initially Hidden) -->
-        <div class="card-set second-set hidden flex gap-8">
-            <div class="border rounded-lg overflow-hidden shadow-lg bg-white transition-transform transform hover:scale-105 w-80">
-                <img src="https://calebporzio.com/post_images/213149115.png" alt="Project Image" class="w-full h-40 object-cover">
-                <div class="p-4 text-center">
-                    <h3 class="text-lg font-semibold text-gray-800">Vercel Laravel</h3>
-                    <p class="text-sm text-gray-600 mt-2">A Vercel Laravel and OpenWeather API that allows users to check current weather conditions in any city.</p>
-                    <div class="mt-4">
-                        <a href="https://github.com/FelixCE0/vercel-laravel" 
-                           target="_blank" 
-                           class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm font-medium">
-                            View on GitHub
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navigation Buttons -->
-    <div class="mt-8">
-        <button onclick="showNextSet()" class="inline-flex items-center justify-center text-white bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-md text-sm font-medium">
-            Next
-        </button>
-    </div>
-</div>
-
-<!-- JavaScript -->
-<script>
-    let currentSet = 0; // Track which set of cards is currently visible
-
-    function showNextSet() {
-        const firstSet = document.querySelector('.first-set');
-        const secondSet = document.querySelector('.second-set');
-        
-        if (currentSet === 0) {
-            firstSet.classList.add('hidden');
-            secondSet.classList.remove('hidden');
-            currentSet = 1;
-        } else {
-            firstSet.classList.remove('hidden');
-            secondSet.classList.add('hidden');
-            currentSet = 0;
-        }
-    }
-</script>
                 <div class="container">
                     <section id="contact_sec" class="contact-sec sec-pad-top-sm">
                         <h2 class="mb-35">contact</h2>
@@ -511,6 +500,26 @@
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     @livewireScripts
+
+    <!-- Project Cards Navigation Script -->
+    <script>
+        let currentSet = 0; // Track which set of cards is currently visible
+
+        function showNextSet() {
+            const firstSet = document.querySelector('.first-set');
+            const secondSet = document.querySelector('.second-set');
+            
+            if (currentSet === 0) {
+                firstSet.classList.add('hidden');
+                secondSet.classList.remove('hidden');
+                currentSet = 1;
+            } else {
+                firstSet.classList.remove('hidden');
+                secondSet.classList.add('hidden');
+                currentSet = 0;
+            }
+        }
+    </script>
 </body>
 
 </html>
